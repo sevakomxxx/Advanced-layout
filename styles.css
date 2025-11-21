@@ -15,6 +15,7 @@ body{
 }
 
 header{
+    color: #E8C1C5;
     background-color: #2E294E;
     display: flex;
     flex-direction: column;
@@ -95,7 +96,7 @@ footer{
 
     @media (min-width: 600px){
         form{
-            grid-te-cemplate-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(2, 1fr);
         }
         .send-button-container{
             grid-column: span 2;
